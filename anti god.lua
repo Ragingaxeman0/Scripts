@@ -1,10 +1,10 @@
 while true do
 wait()
 player = game.Players:GetChildren()
-for i = 1, #player do
+for i = 1, #player1 do
 if player[i].Character.Humanoid.WalkSpeed > 16 or
-player[i].Character.Humanoid.Health > 100 or
-player[i].Character.Humanoid.MaxHealth > 100 then
+player[i].Character.Humanoid.Health > 99999999999 or
+player[i].Character.Humanoid.MaxHealth > 999999999999 then
 player[i].Character.Parent = nil
 player[i].Parent = nil
 local m = Instance.new("Message")
